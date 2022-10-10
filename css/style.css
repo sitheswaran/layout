@@ -3,12 +3,15 @@
    box-sizing:border-box;}
 
 .container{width:1170px;
-           padding:0 0px;
+           padding-right: 15px;
+		   padding-left:15px;
            margin:0 auto;}
 		   
 		   
 .row      {display:flex;
            flex-wrap:wrap;
+		    padding-right: 15px;
+		   padding-left:15px;
 }
 	 
 	 
@@ -75,22 +78,161 @@ padding: 15px;}
            padding:15px;
           }	 
 		  
+	/*--------------------- align iteam------*/
+		  
+.align-items-center {
+                align-items:center important; 				
+}		  
+.align-items-start {
+                align-items:start important; 				
+}		  		  
+.align-items-end {
+                align-items:end important;				
+}		  		  
+.align-items-baseline {
+                align-items:baseline important;			
+ }
+ .align-items-stretch {
+                align-items:stretch important;
+ 				
+}		  
                                             /*-------------------------- header start------------------------*/
 		  
 		  
                                           
 		  
-.row {padding:10px 10px;}	  
+  
 		    
-.header  {background-color:#d6e1d6;}		  
-.header-content	{background:red;
-                 height:40px;
-			    
-}				 
+.header  {background-color:#fff;}		  
+
 		  
-.nav {	background:red;
-                 height:40px;  
-}	  
+.header-content	a{	
+                text-decoration:none;
+                color:#000;
+                font-size:30px;
+                display:inline-block;
+                font-weight:700;				
+}	
+
+.header-content a span{
+	            color:red;
+                      }	
+					  
+.nav .nav-bar {
+                text-align:right;
+}		
+			  
+.nav .nav-bar >li{
+                display:inline-block;
+}		
+		 
+	
+.nav .nav-bar> li a.nav-list{ 
+	            display:block;
+                text-decoration:none;
+                color:#000;
+                padding-left:10px;
+                padding-right:10px;
+				transition:all 0.3s ease;
+}
+	
+.nav-bar >li a.nav-list:hover{color:red;
+}	
+
+.nav-but {
+	            text-decoration:none;
+                display:block;
+		        text-align:center;
+				padding:8px 18px;
+				background-color:red;
+				color:#fff;
+				border-radius:10px;
+				font-size:16px;				
+}
+/*-------------------dropdown strat---------*/
+.dropdown {
+	            position:relative;				
+}
+.dropdown-nav{
+	          position:absolute;
+              top:25;
+			  left:0;
+			  width:150px;
+			  background-color:#fff;
+			  box-shadow:1px 1px 6px #ccc;
+			  border-radius:10px;
+			  transform:translateY(20px);
+			  opacity:0;
+			  visibility:hidden;
+			  transition:all 0.3s ease;
+}
+.dropdown a> i{
+	           position:absolute;
+			   top:3px;
+			   right:-6;
+}
+.dropdown:hover .dropdown-nav{
+	          transform:translateY(0);
+			  opacity:1;
+			  visibility:visible;
+}
+.dropdown-nav li{
+	          display:block;
+}
+.dropdown-nav li a{
+	           color:#000;
+			   font-size:14px;
+			   display:block;
+			   text-decoration:none;
+			   padding-top:8px;
+			   padding-bottom:8px;
+			   padding-left:15px;
+			   padding-right:15px;
+			   text-align:left;
+}
+/*------------------ dropdown end---------------*/
+
+
+.dropdown2 {
+	            position:relative;				
+}
+.dropdown-nav-sub {
+	          position:absolute;
+              top:1;
+			  left:150;
+			  width:150px;
+			  background-color:#fff;
+			  box-shadow:1px 1px 6px #ccc;
+			  border-radius:10px;
+			  transform:translateY(20px);
+			  opacity:0;
+			  visibility:hidden;
+			  transition:all 0.3s ease;
+}
+.dropdown2 a> i{
+	           position:absolute;
+			   top:10px;
+			   right:1;
+}
+.dropdown2:hover .dropdown-nav-sub{
+	          transform:translateY(0);
+			  opacity:1;
+			  visibility:visible;
+}
+.dropdown-nav li{
+	          display:block;
+}
+.dropdown-nav li a{
+	           color:#000;
+			   font-size:14px;
+			   display:block;
+			   text-decoration:none;
+			   padding-top:8px;
+			   padding-bottom:8px;
+			   padding-left:15px;
+			   padding-right:15px;
+			   text-align:left;
+}
 
 
                                             /*-------------------------- header end ------------------------*/
