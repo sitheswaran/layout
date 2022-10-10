@@ -1,0 +1,360 @@
+* {padding:0;
+   margin:0px;
+   box-sizing:border-box;}
+
+.container{width:1170px;
+           padding:0 0px;
+           margin:0 auto;}
+		   
+		   
+.row      {display:flex;
+           flex-wrap:wrap;
+}
+	 
+	 
+.col-lg-1 {width:8.33%;
+           padding: 15px;
+          }
+		  
+			 
+.col-lg-2 {width:16.66%;
+           padding: 15px;
+          }	  
+		   
+		   	 
+.col-lg-3 {width:25%;
+           padding: 15px;
+          }	 
+		  
+		  	 
+.col-lg-4 {width:33.33%;
+           padding: 15px;
+          }	
+		  
+		  	 
+.col-lg-5 {width:41.66%;
+padding: 15px;}
+        
+		  
+		  
+		  	 
+.col-lg-6 {width:50%;
+           padding: 15px;
+          }	
+		  
+		  
+		  	 
+.col-lg-7 {width:58.33%;
+           padding: 15px;
+          }	
+		  
+		  
+		  	 
+.col-lg-8 {width:66.66%;
+           padding: 15px;
+          }	
+		  
+		  	 
+.col-lg-9 {width:75%;
+           padding: 15px;
+          }	
+		  
+		  
+		  	 
+.col-lg-10 {width:83.33%;
+           padding: 15px;
+          }	
+		  
+		  	 
+.col-lg-11 {width:91.66%;
+           padding: 15px;
+          }	
+		  
+		 	 
+.col-lg-12 {width:100%;
+           padding:15px;
+          }	 
+		  
+                                            /*-------------------------- header start------------------------*/
+		  
+		  
+                                          
+		  
+.row {padding:10px 10px;}	  
+		    
+.header  {background-color:#d6e1d6;}		  
+.header-content	{background:red;
+                 height:40px;
+			    
+}				 
+		  
+.nav {	background:red;
+                 height:40px;  
+}	  
+
+
+                                            /*-------------------------- header end ------------------------*/
+
+
+                                            /*-------------------------- banaeer start ------------------------*/
+
+
+		  
+		  
+.banaer	{background-color:gray;
+         height:300px;
+		 } 
+		 
+.banaer-sec {	  
+		     background-color:red;
+             height:250px;
+			 width:400px;
+			 }
+              	  
+
+
+                                            /*-------------------------- baneer end ------------------------*/
+
+	
+                                            /*-------------------------- clinets start------------------------*/
+
+.clinets {background-color:#d6e1d6;
+         padding-top:5px;
+		 padding-bottom:5px;}
+
+.clients-logo {background-color:red;
+               height:40px;}
+
+
+.about {background-color:gray;
+         height:350px;}
+
+
+.abo {background-color:red;
+           height:300;
+		  padding-top:20px;
+		   }
+		  
+.abt {background-color:red;
+      height:123px;}
+
+                                            /*-------------------------- clinets end ------------------------*/
+
+
+                                            /*-------------------------- project start------------------------*/
+
+
+.project {background-color:#d6e1d6;
+          height:100px;}
+
+
+.proj {background-color:red;
+       height:50px;
+	   padding-top:25px;
+       padding-bottom:25px;}
+	
+                                            /*-------------------------- project end ------------------------*/
+	
+
+                                            /*-------------------------- predo start------------------------*/
+
+.predo {background-color:gray;
+        height:500px;}
+
+
+
+
+.nastrom {background-color:red;
+          height:100px;
+	 }
+
+
+
+
+.ad {background-color:red;
+      height:300px;}
+
+                                            /*-------------------------- predo end  ------------------------*/
+
+
+                                            /*-------------------------- service start------------------------*/
+
+.service {background-color:#d6e1d6;
+          height:500px;}
+		  
+.ser {background-color:red;
+      height:50px;
+	  width:200px;
+       margin-left:450px;}
+
+
+.serv {background-color:red;
+       height:100px;}
+
+
+
+                                            /*-------------------------- service  end  ------------------------*/
+                                            
+                                            /*-------------------------- priceing start------------------------*/
+
+.portafilo {background-color:gray;
+            height:950px;}
+
+
+.port {background-color:red;
+       height:75px;
+	   width:200px;
+            margin-left:450px;
+	  }
+
+
+.porta {background-color:red;
+      height:75px;}
+
+
+.por {background-color:red;
+      height:200px;}
+	
+		  
+                                            /*-------------------------- priceing start------------------------*/
+		  
+		  
+                                            /*-------------------------- priceing start------------------------*/
+		  
+.TESTIMONIALS {background-color:#d6e1d6	;
+               height:520px;}	  
+		  
+		  
+.test {background-color:red;
+       height:50px;
+	   width:200px;
+            margin-left:450px;}	  
+		  
+.testi  {background-color:red;
+       height:50px;}
+
+
+
+.testimon {background-color:red;
+           height:300px;}
+		   
+		   
+                                            /*-------------------------- priceing start------------------------*/
+
+                                            /*-------------------------- priceing start------------------------*/
+
+		  
+.priceing {background-color:gray;
+               height:800px;}	  
+		  
+		  
+.price {background-color:red;
+       height:50px;
+	   	width:200px;
+        margin-left:450px;}	  
+		  
+.pri  {background-color:red;
+       height:100px;}
+
+
+
+.amount {background-color:red;
+           height:500px;}
+
+
+                                            /*-------------------------- priceing end------------------------*/
+
+
+                                            /*-------------------------- QUESTIONS start------------------------*/
+
+.QUESTIONS {background-color:#d6e1d6;
+            height:500px;
+	       }
+
+
+		  
+.qust  {background-color:red;
+            height:70px;
+			width:400px;
+            margin-left:350px;	}
+
+
+
+.qus {background-color:red;
+           height:300px;}
+
+                                            /*-------------------------- QUESTIONS end ------------------------*/
+		  
+	                                            /*-------------------------- team group start------------------------*/
+
+
+		  
+.teamgroup {background-color:gray;
+               height:520px;}	  
+		  
+		  
+.teams {background-color:red;
+       height:50px;
+	   width:200px;
+	   margin-left:450px; }	  
+		  
+.team  {background-color:red;
+       height:50px;}
+
+
+
+.te {background-color:red;
+           height:300px;}	
+		  
+		                                              /*-------------------------- team group end------------------------*/
+		  
+		  
+		  		                                          /*-------------------------- team group end------------------------*/
+		  
+		  
+		  
+.contact {background-color:#d6e1d6;
+            height:500px;}		  
+		  
+		  
+.cont {background-color:red;
+              height:200px;}	
+	   
+		  
+.co {background-color:red;
+             height:300px;}		  
+		  
+		  
+.c {background-color:red;
+     height:200px;}		  
+	 
+	 
+	 
+	 /*---------------------------------------------  Presento start  ---------------------------------------*/
+	 
+	 
+.Presento {background-color:gray;
+           height:500px;}	 
+	 
+	 
+	 
+.person {background-color:red;
+           height:450px;}	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+.footer{	background-color:#d6e1d6;
+           height:200px;} 
+	 
+	 
+	 
+.foot {	 background-color:red;
+           height:100px;
+		   width:300px
+		   }
+	 
+	 
