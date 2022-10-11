@@ -293,13 +293,15 @@ padding: 15px;}
 	
                                             /*-------------------------- clinets start------------------------*/
 
-.clinets {background-color:#d6e1d6;
-         padding-top:5px;
-		 padding-bottom:5px;}
+.clinets {background-color:#fff;
+         padding-top:15px;
+		 padding-bottom:15px;}
 
-.clients-logo {background-color:red;
-               height:40px;}
-
+.clients-logo {vertical-align:middle;
+               height:50px;}
+                                             /*-------------------------- clinets end ------------------------*/
+											 
+											 
 
 .about {background-color:gray;
          height:350px;}
@@ -313,7 +315,7 @@ padding: 15px;}
 .abt {background-color:red;
       height:123px;}
 
-                                            /*-------------------------- clinets end ------------------------*/
+                                           
 
 
                                             /*-------------------------- project start------------------------*/
