@@ -1,6 +1,10 @@
 * {padding:0;
    margin:0px;
    box-sizing:border-box;}
+   
+html{
+	font-family: 'Poppins', sans-serif;
+	}
 
 .container{width:1170px;
            padding-right: 15px;
@@ -103,15 +107,18 @@ padding: 15px;}
 		  
   
 		    
-.header  {background-color:#fff;}		  
-
-		  
+.header  {padding-right: 89px;
+          background-color: #fff;
+          position: fixed;
+          padding-left: 91px;
+          }		  	  
 .header-content	a{	
                 text-decoration:none;
                 color:#000;
                 font-size:30px;
                 display:inline-block;
-                font-weight:700;				
+                font-weight:700;
+				
 }	
 
 .header-content a span{
@@ -133,7 +140,10 @@ padding: 15px;}
                 color:#000;
                 padding-left:10px;
                 padding-right:10px;
+                padding-bottom:10px;
+                padding-top:10px;
 				transition:all 0.3s ease;
+				font:weight:300px;
 }
 	
 .nav-bar >li a.nav-list:hover{color:red;
@@ -144,7 +154,7 @@ padding: 15px;}
 
 .nav-but {
 	            text-decoration:none;
-                display:block;
+                display:inline-block;
 		        text-align:center;
 				padding:8px 18px;
 				background-color:red;
@@ -171,8 +181,8 @@ padding: 15px;}
 }
 .dropdown a> i{
 	           position:absolute;
-			   top:3px;
-			   right:-6;
+			   top:17px;
+			   right:-5;
 }
 .dropdown:hover .dropdown-nav{
 	          transform:translateY(0);
@@ -213,7 +223,7 @@ padding: 15px;}
 			  transition:all 0.3s ease;
 }
 .dropdown2 a> i{
-	           position:absolute;
+	           
 			   top:10px;
 			   right:1;
 }
@@ -246,18 +256,38 @@ padding: 15px;}
 
 		  
 		  
-.banaer	{background-color:gray;
-         height:300px;
+.banaer	{       background-image:linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.5)),url("../image/pi.jpg");
+                background-size:cover;
+                background-repeat:no-repeat;		 
+		        padding-top:97px;
+		
 		 } 
 		 
-.banaer-sec {	  
-		     background-color:red;
-             height:250px;
-			 width:400px;
+.banaer-sec {
+	           color:white;  
+		       font-size:20px;
+               height:480px;
+			   width:700px;
 			 }
-              	  
-
-
+.banaer-sec  h1{font-size:40px;
+                padding-top:58px;}
+        	  
+.nav-but1 {   text-decoration: none;
+              display: inline-block;
+              text-align: center;
+              padding: 10px 28px;
+              background-color: red;
+              color: #fff;
+              border-radius: 7px;
+              font-size: 17px;
+              margin-top: 20px; 
+			  transition:0.2s;
+			
+}
+.nav-but1:hover{border: 0.9px solid ;
+                border-color:white;
+	            background-color: transparent;
+				}
                                             /*-------------------------- baneer end ------------------------*/
 
 	
