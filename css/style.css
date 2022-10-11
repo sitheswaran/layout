@@ -138,6 +138,9 @@ padding: 15px;}
 	
 .nav-bar >li a.nav-list:hover{color:red;
 }	
+.nav2        { text-decoration:none;
+	            color:red;
+}                        
 
 .nav-but {
 	            text-decoration:none;
