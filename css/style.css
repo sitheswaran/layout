@@ -109,7 +109,7 @@ padding: 15px;}
 		    
 .header  {padding-right: 89px;
           background-color: #fff;
-          position: fixed;
+          position: ;
 		  z-index:3;
           padding-left: 91px;
           }		  	  
@@ -398,7 +398,7 @@ padding: 15px;}
                                       /*-------------------------- project start------------------------*/
 
 
-.project {background-color:#f7fbf7;
+.project {background-color:#fff;
           height:260px;}
 
 
