@@ -110,6 +110,7 @@ padding: 15px;}
 .header  {padding-right: 89px;
           background-color: #fff;
           position: fixed;
+		  z-index:3;
           padding-left: 91px;
           }		  	  
 .header-content	a{	
@@ -335,7 +336,7 @@ padding: 15px;}
          height:100%;
 		 background-color:#222;
          z-index:-1;
-		 transform:skew(0deg,-1.5deg);
+		 transform:skew(0deg,-2.0deg);
 
 }
 
@@ -398,26 +399,29 @@ padding: 15px;}
 
 
 .project {background-color:#f7fbf7;
-          height:200px;}
+          height:260px;}
 
 
 .proj {background-color:white;
        height:130px;
-	   margin-top:23px;
+	   margin-top:60px;
 	   text-align:center;
+	   box-shadow: 0px 2px 25px rgb(0 0 0 / 18%);
        }
 	
 .proj i{    position: relative;
-    left: 0px;
-    top: -9px;
-    font-size: 27px;
-    display: inline-block;
-    border: 7px solid white;
-    border-radius: 25px;
-    color: red;
-	    
+       left: 0px;
+       top: -18px;
+       font-size:32px;
+       display: inline-block;
+       border: 7px solid white;
+       border-radius: 25px;
+       color: red;
+	   background-color:white;
+	   box-shadow: 0px 2px 25px rgb(0 0 0 / 18%);
+	   
 }
-	
+
                                        /*-------------------------- project end ------------------------*/
 	
 
