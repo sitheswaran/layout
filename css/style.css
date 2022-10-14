@@ -2,9 +2,9 @@
    margin:0px;
    box-sizing:border-box;}
    
-html{
+/*html{
 	font-family: 'Poppins', sans-serif;
-	}
+	}*/
 
 .container{width:1170px;
            padding-right: 15px;
@@ -109,7 +109,7 @@ padding: 15px;}
 		    
 .header  {padding-right: 89px;
           background-color: #fff;
-          position: ;
+          position:fixed ;
 		  z-index:3;
           padding-left: 91px;
           }		  	  
@@ -144,7 +144,8 @@ padding: 15px;}
                 padding-bottom:10px;
                 padding-top:10px;
 				transition:all 0.3s ease;
-				font:weight:300px;
+			
+			font:weight:300px;
 }
 	
 .nav-bar >li a.nav-list:hover{color:red;
@@ -158,11 +159,18 @@ padding: 15px;}
                 display:inline-block;
 		        text-align:center;
 				padding:8px 18px;
-				background-color:red;
+				background-color:#e03a3c;
 				color:#fff;
 				border-radius:10px;
 				font-size:16px;				
 }
+
+.nav-but:hover{border: 0.9px solid ;
+                border-color:white;
+	            background-color:black;
+				}
+
+
     /*-------------------dropdown strat---------*/
 .dropdown {
 	            position:relative;				
@@ -182,8 +190,8 @@ padding: 15px;}
 }
 .dropdown a> i{
 	           position:absolute;
-			   top:17px;
-			   right:-5;
+			   top:13px;
+			   right:-7;
 }
 .dropdown:hover .dropdown-nav{
 	          transform:translateY(0);
@@ -270,8 +278,11 @@ padding: 15px;}
                height:480px;
 			   width:700px;
 			 }
-.banaer-sec  h1{font-size:40px;
+.banaer-sec  h1{font-size:50px;
                 padding-top:58px;}
+.banaer-sec  h4{font-size:24px;
+                padding-top:20px;
+}				
         	  
 .nav-but1 {   text-decoration: none;
               display: inline-block;
@@ -366,7 +377,7 @@ padding: 15px;}
 }
 .nav-but2:hover{
                 border-color:red;
-				background-color:red;
+				background-color:#e03a3c;
 				color:white;
 				
 }
@@ -375,7 +386,7 @@ padding: 15px;}
 	    }
 
 .about-box i {
-	             color:red;
+	             color:#e03a3c;
 	             margin-top:10px;
 	             font-size:45px;
 }
@@ -423,38 +434,98 @@ padding: 15px;}
 }
 
                                        /*-------------------------- project end ------------------------*/
-	
-
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
                                       /*-------------------------- predo start------------------------*/
 
-.predo {background-color:gray;
-        height:500px;}
+.predo {
+	        background-color:none;
+            height:550px;}
 
 
 
 
-.nastrom {background-color:red;
-          height:100px;
-	 }
+.nastrom{
+	         background-color:#e03a3c;
+            height:100px;
+		    display:flex;
+		  
+		  }
+.nastrom:active{
+             background-color:#e03a3c;	
+}
+
+.nastrom i{ 
+            color:white;
+	        padding-left:16px;
+	        font-size:40px;
+		    margin-top:22px;
+}
+.nastrom h4{color:white;
+	        padding-left:20px;
+	        font-size:15px;
+         	margin-top:26px;	   
+}
 
 
+.nastrom-2 {
+	        display:flex;
+			width:250px;
+			border: 1px solid black ;
+			height:100%;
+}
 
 
-.ad {background-color:red;
-      height:300px;}
+.nastrom-2 i{ 
+          
+	        padding-left:16px;
+	        font-size:40px;
+		    margin-top:25px;
+			transition:all 0.2s ease;
+}
+.nastrom-2 h4{
+	       
+	        padding-left:20px;
+	        font-size:15px;
+         	margin-top:26px;
+		   
+}
+.nastrom-2:hover{
+	       color:red;
+}
 
+.ad {
+      height:375px;
+	  }
+.ad h1{
+        font-size:30px;
+}	
+.ad i{
+	  color:red;
+}		
+	  
+.ad ul {padding-top:10px;
+      list-style:none;
+	  
+	  }
+
+.ad li {
+        padding-top:15px;}
+
+.ad p  {
+	font-size:18px;
+	padding-top:10px;}	
                                             /*-------------------------- predo end  ------------------------*/
 
 
                                             /*-------------------------- service start------------------------*/
 
 .service {background-color:#d6e1d6;
-          height:500px;}
+          height:600px;}
 		  
 .ser {background-color:red;
-      height:50px;
-	  width:200px;
-       margin-left:450px;}
+      height:120px;
+	  
+       }
 
 
 .serv {background-color:red;
