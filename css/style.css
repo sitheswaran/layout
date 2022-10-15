@@ -2,9 +2,9 @@
    margin:0px;
    box-sizing:border-box;}
    
-/*html{
-	font-family: 'Poppins', sans-serif;
-	}*/
+html{
+font-family: 'Poppins', sans-serif;
+	}
 
 .container{width:1170px;
            padding-right: 15px;
@@ -177,7 +177,7 @@ padding: 15px;}
 }
 .dropdown-nav{
 	          position:absolute;
-              top:25;
+              top:32;
 			  left:0;
 			  width:150px;
 			  background-color:#fff;
@@ -190,7 +190,7 @@ padding: 15px;}
 }
 .dropdown a> i{
 	           position:absolute;
-			   top:13px;
+			   top:16px;
 			   right:-7;
 }
 .dropdown:hover .dropdown-nav{
@@ -519,87 +519,404 @@ padding: 15px;}
 
                                             /*-------------------------- service start------------------------*/
 
-.service {background-color:#d6e1d6;
-          height:600px;}
+.service {
+	        position: relative;
+            z-index: 1;
+	        padding-top:20px;
+	        height:725px;
+			}
+.service:after {
+         content:"";
+         position:absolute;
+         left:0;
+         top:0;
+         width:100%;
+         height:100%;
+		 background-color:#000;
+         z-index:-1;
+		 transform:skew(0deg,-2.0deg);
+
+}			
 		  
-.ser {background-color:red;
-      height:120px;
+.ser {      color:white;
+	        text-align:center;
+	        background-color:#000;
+            height:120px;
 	  
        }
+.ser h2 {  
+            font-size:32px;
+			padding-bottom:12px;
+            padding-top:15px;
+            text-transform: uppercase;
+		    font-weight: bold;
+}	
+	   
+.ser .border{
+	        text-transform: uppercase;
+	        margin-left:515px;
+	        text-align:center;
+	        width:50px;
+			height:2px;
+			background-color:red;
+			 
+}
+.ser p {  padding-bottom:8px;
+           padding-top:15px;
+           
+}
 
+.serv i {
+	      
+         font-size:45px;
+}	
+		   
+	        
+.serv  {    position:relative;
+			background-color:#2b2b2b;
+            height:140px;
+			}
 
-.serv {background-color:red;
-       height:100px;}
+.serv i{  
+           color:#e03a3c;
+		   padding-top:20px;
+	       padding-left:10px;
+	       position:absolute;
+}
+.serv h2   { color:white;
+            text-decoration: none;
+            
+	        padding-top:20px;
+			padding-left:75px;
+}
+.serv h2 a{  color:white;
+	        text-decoration:none;
+}
+.serv p  {  
+	        color:white;
+			padding-top:20px;
+			padding-left:75px;
+}
+.serv h2:hover{
+	        text-decoration-line:underline;
+			color:white;
+}
+                                            /*-------------------------- service  end  ------------------------*/                                      /*------------------------------------  
+                                            /*-------------------------- portafilo start------------------------*/
 
+.portafilo-section {
+	        margin-top:40px;
+			background-color:#fff;
+            height:1030px;}
 
+.porta {    background-color:white;
+            text-align:center;
+			margin-bottom:-42px;
+}
+ .border1{
+	       
+	        margin-left:515px;
+	        text-align:center;
+	        width:50px;
+			height:2px;
+			background-color:red;
+			color:black;			 
+}		
+.porta h2 { 
+            color:black;
+            padding-bottom:8px;
+            padding-top:15px;
+            text-transform: uppercase;
+		    font-weight: bold;
+}
+.porta p {
+	        
+            color:gray;
+            padding-bottom:25px;
+            padding-top:9px;
+           
+}	   
+.portafilo-image img{     
+            display:black;
+            height:auto;
+			width:100%;
+			transition:all 0.3s ease;
+		
 
-                                            /*-------------------------- service  end  ------------------------*/
-                                            
-                                            /*-------------------------- priceing start------------------------*/
+	       
+}
 
-.portafilo {background-color:gray;
-            height:950px;}
+.portafilo-nav {
+	       
+	        text-align:center;
+}
 
-
-.port {background-color:red;
-       height:75px;
-	   width:200px;
-            margin-left:450px;
-	  }
-
-
-.porta {background-color:red;
-      height:75px;}
-
-
-.por {background-color:red;
-      height:200px;}
+.portafilo-nav a{
 	
+
+	        display:inline-block;
+			text-decoration:none;
+			padding:5px 15px;
+			border-radius:5px;
+			color:black;
+			transition:all .3s ease;
+}
+.portafilo-nav2 {
+	        border:1px;
+			padding: 4px 15px 7px 15px;
+			background-color:red;
+	        border-radius:7px;
+			color:white;
+}			
+	        
+.portafilo-nav a:hover{
+	
+	        background-color:red;
+	        color:white;                              
+}
+
+.portafilo-image {
+	overflow:hidden;
+	position:relative;
+}
+.portafilo-image .portafilo-overflow {
+	position:absolute;
+	background-color:#483d3d3b;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	display:flex;
+	align-items:flex-end;
+	opacity:0;
+	transition:all 0.3s ease;
+}
+.portafilo-over-img {
+	padding-left:25px;
+	padding-bottom:30px;
+}
+.portafilo-over-img h3 {
+	padding-bottom:8px;
+	color:white;
+	text-transform: uppercase;
+	font-size:20px;
+}	
+
+.portafilo-over-img h4 {
+	padding-bottom:8px;
+	color:gray;
+	font-style:italic;
+	text-transform: uppercase;
+	font-size:18px;
+}
+.portafilo-over-img a {
+    padding-left:10px;
+    text-decoration:none;
+    color:gray;
+	font-size:15px;
+}	
+.portafilo-over-img a:hover{
+	color:white;
+}
+
+.portafilo-image:hover img{
+	transform:scale(1.2);
+}
+
+.portafilo-image:hover .portafilo-overflow {
+	opacity:1;
+}
+
+		                                    /*-------------------------- portafilo end------------------------*/
+                                            /*-------------------------- testmonils start------------------------*/
 		  
-                                            /*-------------------------- priceing start------------------------*/
-		  
-		  
-                                            /*-------------------------- priceing start------------------------*/
-		  
-.TESTIMONIALS {background-color:#d6e1d6	;
+.TESTIMONIALS {background-color:white;
                height:520px;}	  
 		  
 		  
-.test {background-color:red;
-       height:50px;
-	   width:200px;
-            margin-left:450px;}	  
+.test {
+	   background-color:white;
+       text-align:center;
+       height:100px;
+}	  
 		  
-.testi  {background-color:red;
-       height:50px;}
+ .border2{
+	       
+	        margin-left:515px;
+	        text-align:center;
+	        width:50px;
+			height:2px;
+			background-color:red;
+			color:black;			 
+}
 
+.test h2 { 
+            color:black;
+            padding-bottom:8px;
+            padding-top:15px;
+            text-transform: uppercase;
+		    font-weight: bold;
+}
+.test p {
+	        font-size:18px;
+	        color:gray;
+            padding-bottom:25px;
+            padding-top:9px;
+           
+}
 
-
-.testimon {background-color:red;
-           height:300px;}
+.testimon {
+	padding-top:30px;
+	padding-left:20px;
+	
+    height:300px;
+    position:relative;
+	border-radius:10px;
+	box-shadow: 4px 5px 15px 3px #a2a6a7 ;
+		   }
 		   
+.testimon img{
+	border-radius:5px;
+	position:absolute;
+}	
+.testimon h3{
+    padding-left:110px;
+	padding-top:18px;
+}
+.testimon h4{
+    padding-left:110px;
+	padding-top:5px;
+	color:gray;
+}		   
+.testimon p{
+    font-style:italic;
+	padding-top:46px;
+    font-size:21px;
+}
+.testimon i{
+	color:#fceaea;
+	font-size:21px;
+}
+
+}
+
 		   
                                             /*-------------------------- priceing start------------------------*/
 
                                             /*-------------------------- priceing start------------------------*/
 
 		  
-.priceing {background-color:gray;
-               height:800px;}	  
-		  
-		  
-.price {background-color:red;
-       height:50px;
-	   	width:200px;
-        margin-left:450px;}	  
-		  
-.pri  {background-color:red;
-       height:100px;}
+.pricing {
+	background-color:black;
+    height:800px;}	  
+.pricing-section {
+  z-index:1;
+  position:relative;
+  height:710px;
+}  
+.pricing-section:after{
+         content:"";
+         position:absolute;
+         left:0;
+         top:0;
+         width:100%;
+         height:100%;
+		 background-color:#000;
+         z-index:-1;
+		 transform:skew(0deg,-2.0deg);
+
+}
+	
+.price  {
+	margin-top:15px;
+	text-align:center;
+    height:120px;
+	}
+ .border3{
+	       
+	        margin-left:515px;
+	        text-align:center;
+	        width:50px;
+			height:2px;
+			background-color:red;
+			color:black;			 
+ }
+.price h2 { 
+            color:white;
+            padding-bottom:8px;
+            padding-top:15px;
+            text-transform: uppercase;
+		    font-size:30px;
+}
+.price p {
+	        font-size:18px;
+	        color:gray;
+            padding-bottom:25px;
+            padding-top:9px;      
+}
+
+.amount {
+	text-align:center;
+	background-color:#2b2b2b;
+    height:470px;
+	font-size:30px;
+		   }
+.amount h2 {
+	color:#fff;
+	padding-top:30px;
+	text-align:center;
+	font-size:25px;
+}
+.amount h3 {
+	color:white;
+	font-size:45px;
+	padding-top:20px;
+}
+.amount h3 sup {
+
+	padding-top:20px;
+	text-align:center;
+	font-size:20px;
+}
+.amount h3 span {
+
+	text-align:center;
+	font-size:20px;
+}
+
+.amount h4{
+	color:white;
+	padding-top:20px;
+	font-size:20px;
+}
+.amount p {
+	padding-top:20px;
+	font-size:20px;
+	color:gray;
+	text-decoration: line-through;
+	}
+.nav-but3 {   text-decoration: none;
+              display: inline-block;
+              text-align: center;
+              padding: 6px 28px;
+              background-color:transparent;
+              color: #fff;
+              border-radius: 5px;
+              font-size: 17px;
+              margin-top: 30px; 
+			  transition:0.2s;
+			  
+			  border: 0.9px solid gray ;			  
+}
+.nav-but3:hover{
+	border: 0.9px solid white;
+}
 
 
+.amount-color .amount {
+	background-color:#e03a3c;
+}
 
-.amount {background-color:red;
-           height:500px;}
 
 
                                             /*-------------------------- priceing end------------------------*/
