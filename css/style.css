@@ -3,6 +3,7 @@
    box-sizing:border-box;}
    
 html{
+font-family: 'Lato', sans-serif;
 font-family: 'Poppins', sans-serif;
 	}
 
@@ -190,7 +191,7 @@ padding: 15px;}
 }
 .dropdown a> i{
 	           position:absolute;
-			   top:16px;
+			   top:12px;
 			   right:-7;
 }
 .dropdown:hover .dropdown-nav{
