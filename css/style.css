@@ -1204,52 +1204,49 @@ padding: 15px;}
     box-shadow: 0px 3px 20px -5px #a2a6a7;
 	height:360px;
 }
-.contact-message-1 input{
-    margin-top:25px;
-	margin-left:20px;
-	border-radius:3px;
-	padding:9px 16px;
-	display:inline-block;
-    width:225px;
-    border: 1px solid gray;	
+.contact-message-1 {
+	height:30px;
+	border-radius:5px;	
 }
-.contact-message-2 input{
-    margin-top:25px;
-	margin-left:20px;
-	border-radius:3px;
-	padding:9px 21px;
+.contact-message-1 input {
+	width:100%;
+	height:30px;
 	display:inline-block;
-    width:473px;
-    border: 1px solid gray;	
+	padding-left:10px;
 }
-.contact-message-3 textarea{
-    margin-top:25px;
-	margin-left:20px;
-	border-radius:5px;
-	padding:9px 21px;
-	display:inline-block;
-    width:473px;
-    height:126px;	
+.contact-message-2{
+	height:30px;
+	border-radius:5px;	
 }
-
-.contact-message-4 button {
-	text-decoration:none;
-    margin-top:25px;
-	margin-left:175px;
-	border-radius:5px;
-	padding:9px 21px;
+.contact-message-2 input {
+	width:100%;
+	height:30px;
 	display:inline-block;
-    width:145px;
-    color:white;
-    background-color:#e03a3c;
-	border-color:#e03a3c;
+	padding-left:10px;
 	
 }
-
-.contact-message:hover {
-	border-color:black;
+.contact-message-3{
+	height:30px;
+	border-radius:5px;	
+}
+.contact-message-3 textarea {
+	width:100%;
+	height:104px;
+	padding-left:10px;	
 }
 
+.button6  {   text-decoration: none;
+              display: inline-block;
+              text-align: center;
+              padding: 8px 20px;
+              background-color: red;
+              color: #fff;
+              border-radius: 7px;
+              font-size: 17px;
+              margin-top:85px; 
+			  margin-left:150px;
+			
+}
 
 	 /*---------------------------------------------  Presento start  ---------------------------------------*/
 	 
@@ -1333,16 +1330,18 @@ padding: 15px;}
 
 
 
+                      /*----------------------------------------------- PRESENTO  END -----------------------------------------------*/
 
-
-
+                      /*----------------------------------------------- FOOTER SECTION START -----------------------------------------*/
 
 
 
 	
 	 
-.footer{	background-color:black;
-           height:100px;} 
+.footer{	
+          
+	background-color:black;
+    height:100px;} 
 	 
 	 
 	 
@@ -1374,7 +1373,7 @@ padding: 15px;}
 }
 
 .footer-link {
-	
+
 	margin-left:250px;
 }
 
@@ -1384,8 +1383,21 @@ padding: 15px;}
 	background-color:#e03a3c;
 }
 
+.footer-link2 a {
+	
+	line-height:5px;
+	padding:5px 5px;
+	font-size:26px;
+	text-decoration:none;
+	color:white;
+	background-color:#e03a3c;
+	text-align:center;
+	display:inline-block;
+	margin-left:340px;
+	margin-top:-30px;
+	
 
-
+} 
 
 
 
