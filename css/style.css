@@ -191,7 +191,7 @@ padding: 15px;}
 }
 .dropdown a> i{
 	           position:absolute;
-			   top:12px;
+			   top:15px;
 			   right:-7;
 }
 .dropdown:hover .dropdown-nav{
@@ -440,7 +440,7 @@ padding: 15px;}
 
 .predo {
 	        background-color:none;
-            height:550px;}
+            height:610px;}
 
 
 
@@ -459,7 +459,7 @@ padding: 15px;}
             color:white;
 	        padding-left:16px;
 	        font-size:40px;
-		    margin-top:22px;
+		    margin-top:30px;
 }
 .nastrom h4{color:white;
 	        padding-left:20px;
@@ -480,7 +480,7 @@ padding: 15px;}
           
 	        padding-left:16px;
 	        font-size:40px;
-		    margin-top:25px;
+		    margin-top:28px;
 			transition:all 0.2s ease;
 }
 .nastrom-2 h4{
@@ -495,10 +495,10 @@ padding: 15px;}
 }
 
 .ad {
-      height:375px;
+      height:400px;
 	  }
 .ad h1{
-        font-size:30px;
+        font-size:26px;
 }	
 .ad i{
 	  color:red;
@@ -513,8 +513,8 @@ padding: 15px;}
         padding-top:15px;}
 
 .ad p  {
-	font-size:18px;
-	padding-top:10px;}	
+	font-size:16px;
+	}	
                                             /*-------------------------- predo end  ------------------------*/
 
 
@@ -595,7 +595,7 @@ padding: 15px;}
 }
 .serv p  {  
 	        color:white;
-			padding-top:20px;
+			padding-top:10px;
 			padding-left:75px;
 }
 .serv h2:hover{
@@ -762,7 +762,7 @@ padding: 15px;}
 	        font-size:18px;
 	        color:gray;
             padding-bottom:25px;
-            padding-top:9px;
+            padding-top:5px;
            
 }
 
@@ -792,28 +792,38 @@ padding: 15px;}
 .testimon p{
     font-style:italic;
 	padding-top:46px;
-    font-size:21px;
+    font-size:16px;
 }
 .testimon i{
 	color:#fceaea;
 	font-size:21px;
 }
 
+.testimon h4 i:first child{
+	display:inline-block;
+	transform:translateY(-0.5);
+	padding-top:2px;
 }
 
+
+
+
+
+
+
 		   
-                                            /*-------------------------- priceing start------------------------*/
+                                            /*-------------------------- teat end ------------------------*/
 
                                             /*-------------------------- priceing start------------------------*/
 
 		  
 .pricing {
 	background-color:black;
-    height:800px;}	  
+    height:820px;}	  
 .pricing-section {
   z-index:1;
   position:relative;
-  height:710px;
+  height:720px;
 }  
 .pricing-section:after{
          content:"";
@@ -859,7 +869,7 @@ padding: 15px;}
 .amount {
 	text-align:center;
 	background-color:#2b2b2b;
-    height:470px;
+    height:500px;
 	font-size:30px;
 		   }
 .amount h2 {
@@ -888,11 +898,16 @@ padding: 15px;}
 .amount h4{
 	color:white;
 	padding-top:20px;
-	font-size:20px;
+	font-size:16px;
+}
+.amount h5{
+	color:white;
+	padding-top:20px;
+	font-size:15px;
 }
 .amount p {
 	padding-top:20px;
-	font-size:20px;
+	font-size:15px;
 	color:gray;
 	text-decoration: line-through;
 	}
@@ -903,7 +918,7 @@ padding: 15px;}
               background-color:transparent;
               color: #fff;
               border-radius: 5px;
-              font-size: 17px;
+              font-size: 15px;
               margin-top: 30px; 
 			  transition:0.2s;
 			  
@@ -925,94 +940,454 @@ padding: 15px;}
 
                                             /*-------------------------- QUESTIONS start------------------------*/
 
-.QUESTIONS {background-color:#d6e1d6;
-            height:500px;
+.qustion-section {
+            height:650px;
+			margin-top:25px;
 	       }
 
 
 		  
-.qust  {background-color:red;
-            height:70px;
-			width:400px;
-            margin-left:350px;	}
+.qustion  {
+	
+    text-align:center;
+    
+ 	}
+ .border4{
+	       
+	        margin-left:515px;
+	        text-align:center;
+	        width:50px;
+			height:2px;
+			background-color:red;
+			color:black;			 
+ }
+.qustion h2 { 
+            
+            color:black;
+            padding-bottom:8px;
+            padding-top:15px;
+            text-transform: uppercase;
+		    font-size:30px;
+}	
 
 
+.qustion-layout {
+    height:50px;
+	border-bottom:1px solid #eee;
+	}
+.qustion-layout h4 a {
+    text-decoration:none;
+	color:black;
+}	
 
-.qus {background-color:red;
-           height:300px;}
+.qustion-layout h4 i {
+	display:inline-block;
+    position:absolute;
+	right:137px;
+	
+}
+.qustion-layout:hover h4 a {
+	color:red;
+}
+.qustion-layout:hover i  {
+	color:red;
+}
+
+
 
                                             /*-------------------------- QUESTIONS end ------------------------*/
 		  
 	                                            /*-------------------------- team group start------------------------*/
 
 
+		  	  
 		  
-.teamgroup {background-color:gray;
-               height:520px;}	  
-		  
-		  
-.teams {background-color:red;
-       height:50px;
-	   width:200px;
-	   margin-left:450px; }	  
-		  
-.team  {background-color:red;
-       height:50px;}
+.team-box {
+  z-index:1;
+  position:relative;
+  height:515px;
+}  
+.team-box:after{
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background-color:#000;
+    z-index:-1;
+    transform:skew(0deg,-2.0deg);
 
-
-
-.te {background-color:red;
-           height:300px;}	
+}		  
 		  
-		                                              /*-------------------------- team group end------------------------*/
-		  
-		  
-		  		                                          /*-------------------------- team group end------------------------*/
-		  
-		  
-		  
-.contact {background-color:#d6e1d6;
-            height:500px;}		  
-		  
-		  
-.cont {background-color:red;
-              height:200px;}	
+.team  {
+	
+    text-align:center;
+    height:100px;}
 	   
+ .border4{
+	       
+    margin-left:515px;
+	text-align:center;
+    width:50px;
+    height:2px;
+    background-color:red;
+	color:black;			 
+ }
+.team h2 { 
+    color:#fff;
+	padding-bottom:8px;
+  	text-transform: uppercase;
+    font-size:30px;
+}
+.team p {
+    font-size:18px;
+	color:gray;
+    padding-bottom:25px;
+    padding-top:9px;      
+}
+
+
+.team-img {
+	border-radius:10px;
+	background-color:white;
+    position:relative;
+    height:320px;
+		   }
+.team-img img{
+    width:100%;
+    height:235px;
+
+	
+}	
 		  
-.co {background-color:red;
-             height:300px;}		  
+	
+.team-link {
+    position:absolute;
+	padding-left:18px;
+	bottom:85px;
+
+	
+}	
+	
+.team-link a i{
+    line-height:35px;
+    display:inline-block;
+    border-radius:50%;
+    background-color:#e03a3c;
+    width:35px;
+    height:35px;
+    margin:0 3px;
+	text-align:center;
+	font-size:14px;
+	color:#fff;
+	text-decoration:none;
+    transform:translateY(-20px);
+	opacity:0;
+	transition:all 0.3s ease;
+	
+	
+}	
+.team-img:hover .team-link a i{
+    opacity:1;
+    transform:translateY:(0);	
+}
+	
+.team-name h3{
+    padding-left:8px;
+    padding-top:15px;
+}	
+.team-name h5{
+    padding-left:8px;
+    padding-top:10px;
+	color:gray;
+}	
+.team-link a i:hover{
+    background-color:black;
+    color:%fff;
+}	
+	
+	
+	
+	                         /*-------------------------- team group end------------------------*/
 		  
 		  
-.c {background-color:red;
-     height:200px;}		  
-	 
-	 
-	 
+		  		              /*-------------------------- contact-section start------------------------*/
+.contact-section {
+	margin-top:30px;
+	height:540px;
+}
+	
+	
+	
+	.contact-header {
+	text-align:center;
+    height:100px;
+	}
+ .border5{
+	       
+    margin-left:515px;
+	text-align:center;
+    width:50px;
+    height:2px;
+    background-color:red;
+			 
+ }
+.contact-header h2 { 
+    color:black;
+	padding-bottom:8px;
+  	text-transform: uppercase;
+    font-size:30px;
+}
+.contact-header  {
+    font-size:18px;
+	color:gray;
+    padding-bottom:25px;
+    padding-top:9px;      
+}	
+.contact-address {
+	border-radius: 4px;
+	margin-top:-12px;
+	padding-top:40px;
+    box-shadow: 0px 3px 20px -5px #a2a6a7;
+    height:170px;
+	text-align:center;
+}
+.contact-address h2{
+	padding-top:15px;
+	color:#444444;
+}
+.contact-address i {
+	border-radius:50%;
+	font-size:32px;
+	padding:8px 8px 8px 8px;
+	background-color:white;
+	border:2px dotted #f8d4d5 ;
+	color:#e03a3c;
+}
+.contact-address h4 {
+	font-size: 14px;	
+}
+/*--------------------*/
+.contact-email {
+	text-align:center;
+	height:160px;
+}
+.contact-email i {
+	border-radius:50%;
+	font-size:32px;
+	padding:8px 8px 8px 8px;
+	background-color:white;
+	border:2px dotted #f8d4d5 ;
+	color:#e03a3c;
+}	
+.contact-email {
+	border-radius:5px;
+	margin-top:-12px;
+	padding-top:26px;
+    box-shadow: 0px 3px 20px -5px #a2a6a7;
+    height:170px;
+	text-align:center;
+}
+.contact-email h2{
+	font-size:15px;
+	padding-top:15px;
+	color:#444444;
+	font-weight:200px;
+}
+.contact-email h4 {
+	padding-top:5px;
+	font-size: 14px;	
+
+}
+.contact-message {
+    box-shadow: 0px 3px 20px -5px #a2a6a7;
+	height:360px;
+}
+.contact-message-1 input{
+    margin-top:25px;
+	margin-left:20px;
+	border-radius:3px;
+	padding:9px 16px;
+	display:inline-block;
+    width:225px;
+    border: 1px solid gray;	
+}
+.contact-message-2 input{
+    margin-top:25px;
+	margin-left:20px;
+	border-radius:3px;
+	padding:9px 21px;
+	display:inline-block;
+    width:473px;
+    border: 1px solid gray;	
+}
+.contact-message-3 textarea{
+    margin-top:25px;
+	margin-left:20px;
+	border-radius:5px;
+	padding:9px 21px;
+	display:inline-block;
+    width:473px;
+    height:126px;	
+}
+
+.contact-message-4 button {
+	text-decoration:none;
+    margin-top:25px;
+	margin-left:175px;
+	border-radius:5px;
+	padding:9px 21px;
+	display:inline-block;
+    width:145px;
+    color:white;
+    background-color:#e03a3c;
+	border-color:#e03a3c;
+	
+}
+
+.contact-message:hover {
+	border-color:black;
+}
+
+
 	 /*---------------------------------------------  Presento start  ---------------------------------------*/
 	 
 	 
-.Presento {background-color:gray;
-           height:500px;}	 
+.Presento-section {
+	background-color:#1b1b1b;
+    height:280px;
+	}	 
+ .border6{
+	       
+    margin-top:5px;
+	margin-bottom:5px;
+    width:25px;
+    height:2px;
+    background-color:#e03a3c;
+			 
+ }	 
 	 
 	 
 	 
-.person {background-color:red;
-           height:450px;}	 
+.persento {
+	
+    color:#fff;
+}	
+.persento span {
+    color:#e03a3c;
+}	
+.persento p {
+	font-size:15px;
+	padding-top:8px;
+}
+.space {
+	font-size:13px;
+	padding-top:18px;
+}
+/*------------------------*/
+.presento-2 {
+	width:180px;
+}
+
+
+.presento-2 a{
+	text-decoration:none;
+	color:gray;
+}
+.presento-2 p{
+	padding-top:15px;
+}
+.presento-2 p i {
+	color:#fff;
+}
+.presento-2 a:hover{
+	color:#fff;
+}
+.presento-3 {
+    margin-left:105px;
+}	
+
+
+.presento-button input{
+	position:relative;
+    border:none;
+    padding:10px 20px;
+	margin-left:100px;
+	width:300px;
+	border-radius:5px;
+	margin-top:50px;
+}	
+.presento-button-2 input{
+	position:absolute;
+    border:none;
+    padding:10px 20px;
+	width:100px;
+	margin-left:305px;
+	margin-top:-43px;
+	background-color:#e03a3c;
+	color:#fff;
+	text-align:right;
+	
+}	
+
+
+
+
+
+
+
+
+
+	
+	 
+.footer{	background-color:black;
+           height:100px;} 
 	 
 	 
 	 
-	 
-	 
-	 
-	 
-.footer{	background-color:#d6e1d6;
-           height:200px;} 
-	 
-	 
-	 
-.foot {	 background-color:red;
-           height:100px;
-		   width:300px
+.foot {	 
+    margin-top:20px;
+	width:500px;
 		   }
-	 
-	 
+.foot-sec {
+	font-size:13px;
+    color:white;
+}	 
+
+
+.foot-sec  a{
+    text-decoration:none;
+	color:#e03a3c;
+}
+
+.footer-link a{
+	line-height:5px;
+	padding:5px 5px;
+	font-size:26px;
+	text-decoration:none;
+	color:white;
+	background-color:#1b1b1b;
+	text-align:center;
+	display:inline-block;
+	margin-left:7px;
+}
+
+.footer-link {
+	
+	margin-left:250px;
+}
+
+
+
+.footer-link a:hover{
+	background-color:#e03a3c;
+}
+
+
+
+
+
+
+
+
