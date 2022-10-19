@@ -108,11 +108,12 @@ padding: 15px;}
 		  
   
 		    
-.header  {padding-right:160px;
+.header  {
+	      width:1360px;
           background-color: #fff;
-          position:fixed ;
-		  z-index:3;
-          padding-left: 91px;
+          position:fixed;
+		  z-index:2;
+         
           }		  	  
 .header-content	a{	
                 text-decoration:none;
@@ -1314,20 +1315,26 @@ padding: 15px;}
 	width:300px;
 	border-radius:5px;
 	margin-top:50px;
+	
+
 }	
-.presento-button-2 input{
-	position:absolute;
-    border:none;
-    padding:10px 20px;
-	width:100px;
-	margin-left:305px;
-	margin-top:-43px;
+.presento-button-2 a{
+	text-decoration:none;
+	color:white;
 	background-color:#e03a3c;
-	color:#fff;
-	text-align:right;
+	padding:6px 5px;
+	text-align:left;
+
+	
 	
 }	
+.presento-button-2 {
+	position:absolute;
+	margin-left:313px;
+	margin-top:-30px;
 
+	
+}
 
 
                       /*----------------------------------------------- PRESENTO  END -----------------------------------------------*/
@@ -1346,6 +1353,7 @@ padding: 15px;}
 	 
 	 
 .foot {	 
+
     margin-top:20px;
 	width:500px;
 		   }
@@ -1373,33 +1381,28 @@ padding: 15px;}
 }
 
 .footer-link {
-
-	margin-left:250px;
+    
+	margin-left:210px;
 }
-
-
 
 .footer-link a:hover{
 	background-color:#e03a3c;
 }
-
-.footer-link2 a {
-	
-	line-height:5px;
-	padding:5px 5px;
-	font-size:26px;
+.footer-link2 {
+	position:fixed;
+	bottom:25px;
+	right:15;
+	z-index:5px;
+}
+.footer-link2 a{
 	text-decoration:none;
 	color:white;
+	padding:5px 5px;
 	background-color:#e03a3c;
-	text-align:center;
-	display:inline-block;
-	margin-left:340px;
-	margin-top:-30px;
-	
+	line-height:5px;
+	font-size:20px;
+}
 
-} 
-
-
-
-
-
+.footer-link2 a:hover {
+	background-color:#e35c5e;
+}
