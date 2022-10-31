@@ -201,36 +201,20 @@
 }
 
 .banaer-sec  h1{
-	text-align:center;
+
 	font-size:38px;
     padding-top:58px;}
 .banaer-sec  h4{
 	font-size:20px;
     padding-top:20px;
-    text-align:center;
+   
 }
 .nav-but1 {
 	
 	margin-top: 14px;
-	margin-left:273px;
 }
 
-.abo    {
-	text-align:center;
-}
-.about-box {
-    text-align: center;
-}
-/*---------
-.nastrom-2 h4{
-	padding-left:50px;
-    display:none !important;
-}
-.nastrom h4{
-	
-	display:none !important;
-}
--------*/
+
 .nastrom-2 i {
 	margin-top: 22px;
     padding-left: 50px;
