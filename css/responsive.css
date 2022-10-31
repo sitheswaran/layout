@@ -127,10 +127,9 @@
 
 
 @media (min-width:768px){
-	.d-none{
-	 display:none !important;
- }
-  	 
+
+ 
+ 
 .col-ipad-1 {width:8.33%;
            padding: 15px;
           }
@@ -200,6 +199,7 @@
 	margin-top:7px;
     border-radius: 5px          	
 }
+
 .banaer-sec  h1{
 	text-align:center;
 	font-size:38px;
@@ -214,12 +214,14 @@
 	margin-top: 14px;
 	margin-left:273px;
 }
+
 .abo    {
 	text-align:center;
 }
 .about-box {
     text-align: center;
 }
+/*---------
 .nastrom-2 h4{
 	padding-left:50px;
     display:none !important;
@@ -228,6 +230,7 @@
 	
 	display:none !important;
 }
+-------*/
 .nastrom-2 i {
 	margin-top: 22px;
     padding-left: 50px;
@@ -289,30 +292,6 @@
 .footer-link {
     margin-left: 74px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
