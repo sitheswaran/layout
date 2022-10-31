@@ -6,82 +6,24 @@ html{
 font-family: 'Lato', sans-serif;
 font-family: 'Poppins', sans-serif;
 	}
+	
+ .container{
+	width:100%;
+	padding:0 15px;
+	overflow:hidden;
+}
 
-.container{width:1170px;
-           padding-right: 15px;
-		   padding-left:15px;
-           margin:0 auto;}
-		   
-		   
-.row      {display:flex;
+.row      {
+	       
+	       display:flex;
            flex-wrap:wrap;
 		    padding-right: 15px;
 		   padding-left:15px;
-}
-	 
-	 
-.col-lg-1 {width:8.33%;
-           padding: 15px;
-          }
-		  
-			 
-.col-lg-2 {width:16.66%;
-           padding: 15px;
-          }	  
+}		   
 		   
-		   	 
-.col-lg-3 {width:25%;
-           padding: 15px;
-          }	 
-		  
-		  	 
-.col-lg-4 {width:33.33%;
-           padding: 15px;
-          }	
-		  
-		  	 
-.col-lg-5 {width:41.66%;
-padding: 15px;}
-        
-		  
-		  
-		  	 
-.col-lg-6 {width:50%;
-           padding: 15px;
-          }	
-		  
-		  
-		  	 
-.col-lg-7 {width:58.33%;
-           padding: 15px;
-          }	
-		  
-		  
-		  	 
-.col-lg-8 {width:66.66%;
-           padding: 15px;
-          }	
-		  
-		  	 
-.col-lg-9 {width:75%;
-           padding: 15px;
-          }	
-		  
-		  
-		  	 
-.col-lg-10 {width:83.33%;
-           padding: 15px;
-          }	
-		  
-		  	 
-.col-lg-11 {width:91.66%;
-           padding: 15px;
-          }	
-		  
-		 	 
-.col-lg-12 {width:100%;
-           padding:15px;
-          }	 
+
+	 
+ 
 		  
 	/*--------------------- align iteam------*/
 		  
@@ -113,6 +55,7 @@ padding: 15px;}
           background-color: #fff;
           position:fixed;
 		  z-index:2;
+		  
          
           }		  	  
 .header-content	a{	
@@ -310,11 +253,13 @@ padding: 15px;}
 
 .clinets {background-color:#fff;
          padding-top:30px;
+		 
+	
 		 padding-bottom:45px;
 		 }
 
 .clients-logo {vertical-align:middle;
-               height:50px;
+               
 			   }
 .clients-logo img {
 	     filter:grayscale(100%);
@@ -335,7 +280,7 @@ padding: 15px;}
 
 .about {
 	  	
-         height:480px;
+         
          padding:80px0;
 		 position:relative;
 		 z-index:0;
@@ -413,7 +358,7 @@ padding: 15px;}
 
 
 .project {background-color:#fff;
-          height:260px;}
+          }
 
 
 .proj {background-color:white;
@@ -442,7 +387,7 @@ padding: 15px;}
 
 .predo {
 	        background-color:none;
-            height:610px;}
+            }
 
 
 
@@ -472,7 +417,7 @@ padding: 15px;}
 
 .nastrom-2 {
 	        display:flex;
-			width:250px;
+			
 			border: 1px solid black ;
 			height:100%;
 }
@@ -526,7 +471,7 @@ padding: 15px;}
 	        position: relative;
             z-index:0;
 	        padding-top:20px;
-	        height:725px;
+	        
 			}
 .service:after {
          content:"";
@@ -610,7 +555,7 @@ padding: 15px;}
 .portafilo-section {
 	        margin-top:40px;
 			background-color:#fff;
-            height:1030px;}
+          }
 
 .porta {    background-color:white;
             text-align:center;
