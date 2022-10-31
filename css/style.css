@@ -489,7 +489,7 @@ font-family: 'Poppins', sans-serif;
 .ser {      color:white;
 	        text-align:center;
 	        background-color:#000;
-            height:120px;
+            
 	  
        }
 .ser h2 {  
@@ -522,7 +522,7 @@ font-family: 'Poppins', sans-serif;
 	        
 .serv  {    position:relative;
 			background-color:#2b2b2b;
-            height:140px;
+            
 			}
 
 .serv i{  
@@ -679,13 +679,13 @@ font-family: 'Poppins', sans-serif;
                                             /*-------------------------- testmonils start------------------------*/
 		  
 .TESTIMONIALS {background-color:white;
-               height:520px;}	  
+              }	  
 		  
 		  
 .test {
 	   background-color:white;
        text-align:center;
-       height:100px;
+      
 }	  
 		  
  .border2{
@@ -772,11 +772,11 @@ font-family: 'Poppins', sans-serif;
 		  
 .pricing {
 	background-color:black;
-    height:820px;}	  
+    }	  
 .pricing-section {
   z-index:0;
   position:relative;
-  height:720px;
+ 
 }  
 .pricing-section:after{
          content:"";
@@ -894,7 +894,7 @@ font-family: 'Poppins', sans-serif;
                                             /*-------------------------- QUESTIONS start------------------------*/
 
 .qustion-section {
-            height:650px;
+            
 			margin-top:25px;
 	       }
 
@@ -925,7 +925,7 @@ font-family: 'Poppins', sans-serif;
 
 
 .qustion-layout {
-    height:50px;
+    
 	border-bottom:1px solid #eee;
 	}
 .qustion-layout h4 a {
@@ -958,7 +958,7 @@ font-family: 'Poppins', sans-serif;
 .team-box {
   z-index:0;
   position:relative;
-  height:515px;
+  
 }  
 .team-box:after{
     content:"";
@@ -976,7 +976,7 @@ font-family: 'Poppins', sans-serif;
 .team  {
 	
     text-align:center;
-    height:100px;}
+    }
 	   
  .border4{
 	       
@@ -1068,14 +1068,13 @@ font-family: 'Poppins', sans-serif;
 		  		              /*-------------------------- contact-section start------------------------*/
 .contact-section {
 	margin-top:30px;
-	height:540px;
 }
 	
 	
 	
 	.contact-header {
 	text-align:center;
-    height:100px;
+    
 	}
  .border5{
 	       
@@ -1206,7 +1205,7 @@ font-family: 'Poppins', sans-serif;
 	 
 .Presento-section {
 	background-color:#1b1b1b;
-    height:280px;
+    
 	}	 
  .border6{
 	       
@@ -1300,7 +1299,7 @@ font-family: 'Poppins', sans-serif;
 .footer{	
           
 	background-color:black;
-    height:100px;} 
+   } 
 	 
 	 
 	 

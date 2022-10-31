@@ -10,9 +10,7 @@
 		margin-top:5px;
 		border-radius: 5px
 }
-.banaer-sec {
-	           
-		       
+.banaer-sec {    
                height:365px;
 			   
 			 }
@@ -32,8 +30,33 @@
 .nastrom-2 {
     min-height: 100px;
 }
+.serv p {
+    font-size: 12px;
+}
+.serv h2 a {
+    font-size: 20px;
+}
 
-
+.button6 {
+    margin-top: 70px;
+    margin-left: 45px;
+}
+.presento-3 {
+    margin-left: 15px;
+}
+.presento-button-2 {
+    margin-left: 183px;
+}
+.presento-button input {  
+    margin-left: 5px;
+    width: 230px;
+}
+.persento {
+    margin-left: -30px;
+}
+.footer-link {
+    margin-left:18px;
+}
 .col-1 { width:8.33%;
            padding: 15px;
           }
@@ -99,6 +122,205 @@
 	
 
 }
+
+/*---------------------- (min-width:768px start --------------------*/
+
+
+@media (min-width:768px){
+	.d-none{
+	 display:none !important;
+ }
+  	 
+.col-ipad-1 {width:8.33%;
+           padding: 15px;
+          }
+		  
+			 
+.col-ipad-2 {width:16.66%;
+           padding: 15px;
+          }	  
+		   
+		   	 
+.col-ipad-3 {width:25%;
+           padding: 15px;
+          }	 
+		  
+		  	 
+.col-ipad-4 {width:33.33%;
+           padding: 15px;
+          }	
+		  
+		  	 
+.col-ipad-5 {width:41.66%;
+           padding: 15px;}
+        
+		  
+		  
+		  	 
+.col-ipad-6 {width:50%;
+           padding: 15px;
+          }	
+		  
+		  
+		  	 
+.col-ipad-7 {width:58.33%;
+           padding: 15px;
+          }	
+		  
+		  
+		  	 
+.col-ipad-8 {width:66.66%;
+           padding: 15px;
+          }	
+		  
+		  	 
+.col-ipad-9 {width:75%;
+           padding: 15px;
+          }	
+		  
+		  
+		  	 
+.col-ipad-10 {width:83.33%;
+           padding: 15px;
+          }	
+		  
+		  	 
+.col-ipad-11 {width:91.66%;
+           padding: 15px;
+          }	
+		  
+		 	 
+.col-ipad-12 {width:100%;
+           padding:15px;
+          }	
+}
+.nav-but {
+	padding: 5px 16px;
+    margin-left:340px;
+	margin-top:7px;
+    border-radius: 5px          	
+}
+.banaer-sec  h1{
+	text-align:center;
+	font-size:38px;
+    padding-top:58px;}
+.banaer-sec  h4{
+	font-size:20px;
+    padding-top:20px;
+    text-align:center;
+}
+.nav-but1 {
+	
+	margin-top: 14px;
+	margin-left:273px;
+}
+.abo    {
+	text-align:center;
+}
+.about-box {
+    text-align: center;
+}
+.nastrom-2 h4{
+	padding-left:50px;
+    display:none !important;
+}
+.nastrom h4{
+	
+	display:none !important;
+}
+.nastrom-2 i {
+	margin-top: 22px;
+    padding-left: 50px;
+}
+
+.nastrom i {
+	margin-top: 22px;
+    padding-left: 50px;
+}
+.nastrom {
+	height:85px;
+}
+.ser .border { 
+    margin-left: 310px;
+}
+
+.border1 { 
+    margin-left: 310px;
+}
+.border2 { 
+    margin-left: 310px;
+}
+.border3 { 
+    margin-left: 310px;
+}
+.price p {
+    font-size: 15px;
+}
+
+.border4 { 
+    margin-left: 310px;
+}
+.border5{ 
+    margin-left: 310px;
+}
+.border6 { 
+    margin-left:10px;
+}
+
+.qustion-layout h4 i {
+    right: 45px;
+}
+.team p {
+    padding-bottom: 1px;
+
+}
+.button6 {
+    margin-left: 230px;
+}
+.presento-3 {
+    margin-left: 8px;
+}
+.presento-button input {
+    margin-left: 6px;
+} 
+.presento-button-2 {
+    margin-left: 219px;
+}
+.footer-link {
+    margin-left: 74px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------- (min-width:768px end  --------------------*/
+
+/*---------------------- (min-width:1200px start --------------------*/
+
+
 @media (min-width:1200px){
 	
 	.container{width:1170px;
