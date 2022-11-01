@@ -21,7 +21,9 @@ font-family: 'Poppins', sans-serif;
 		   padding-left:15px;
 }		   
 		   
-
+.d-none {
+	display:none !important;
+}
 	 
  
 		  
@@ -411,7 +413,7 @@ font-family: 'Poppins', sans-serif;
 .nastrom h4{color:white;
 	        padding-left:20px;
 	        font-size:15px;
-         	margin-top:26px;	   
+         	margin-top:18px;	   
 }
 
 
@@ -434,16 +436,17 @@ font-family: 'Poppins', sans-serif;
 	       
 	        padding-left:20px;
 	        font-size:15px;
-         	margin-top:26px;
+         	margin-top:18px;
 		   
 }
 .nastrom-2:hover{
 	       color:red;
 }
-
+/****-
 .ad {
       height:400px;
 	  }
+	  ------*/
 .ad h1{
         font-size:26px;
 }	

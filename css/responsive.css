@@ -1,9 +1,13 @@
 @media (max-width:576px){
 
- .d-none{
+ .d-xs-none{
 	 display:none !important;
  }
+
 .row {margin:0;}
+.row>*{
+	width:100%;
+}
 .nav-but {
 	    padding: 5px 16px;
         margin-left:13px;
@@ -192,7 +196,7 @@
 .col-ipad-12 {width:100%;
            padding:15px;
           }	
-}
+
 .nav-but {
 	padding: 5px 16px;
     margin-left:340px;
@@ -231,28 +235,13 @@
     margin-left: 310px;
 }
 
-.border1 { 
-    margin-left: 310px;
-}
-.border2 { 
-    margin-left: 310px;
-}
-.border3 { 
-    margin-left: 310px;
-}
+
+
 .price p {
     font-size: 15px;
 }
 
-.border4 { 
-    margin-left: 310px;
-}
-.border5{ 
-    margin-left: 310px;
-}
-.border6 { 
-    margin-left:10px;
-}
+
 
 .qustion-layout h4 i {
     right: 45px;
@@ -261,9 +250,7 @@
     padding-bottom: 1px;
 
 }
-.button6 {
-    margin-left: 230px;
-}
+
 .presento-3 {
     margin-left: 8px;
 }
@@ -277,9 +264,137 @@
     margin-left: 74px;
 }
 
+.nastrom-2 h4{
+	display:none;
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 /*---------------------- (min-width:768px end  --------------------*/
+
+/*---------------------- (min-width:992px start  --------------------*/
+
+@media (min-width:992px){
+ 
+ 
+.col-desk-1 {width:8.33%;
+           padding: 15px;
+          }
+		  
+			 
+.col-desk-2 {width:16.66%;
+           padding: 15px;
+          }	  
+		   
+		   	 
+.col-desk-3 {width:25%;
+           padding: 15px;
+          }	 
+		  
+		  	 
+.col-desk-4 {width:33.33%;
+           padding: 15px;
+          }	
+		  
+		  	 
+.col-desk-5 {width:41.66%;
+           padding: 15px;}
+        
+		  
+		  
+		  	 
+.col-desk-6 {width:50%;
+           padding: 15px;
+          }	
+		  
+		  
+		  	 
+.col-desk-7 {width:58.33%;
+           padding: 15px;
+          }	
+		  
+		  
+		  	 
+.col-desk-8 {width:66.66%;
+           padding: 15px;
+          }	
+		  
+		  	 
+.col-desk-9 {width:75%;
+           padding: 15px;
+          }	
+		  
+		  
+		  	 
+.col-desk-10 {width:83.33%;
+           padding: 15px;
+          }	
+		  
+		  	 
+.col-desk-11 {width:91.66%;
+           padding: 15px;
+          }	
+		  
+		 	 
+.col-desk-12 {width:100%;
+           padding:15px;
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*---------------------- (min-width:1200px start --------------------*/
 
