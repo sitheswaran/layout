@@ -199,7 +199,9 @@
 
 .nav-but {
 	padding: 5px 16px;
+	/*--
     margin-left:340px;
+	--*/
 	margin-top:7px;
     border-radius: 5px          	
 }
@@ -264,7 +266,7 @@
     margin-left: 74px;
 }
 
-.nastrom-2 h4{
+.pad-none {
 	display:none;
 }
 
@@ -470,6 +472,9 @@
 .col-lg-12 {width:100%;
            padding:15px;
           }	 
-.d-xs-none {display:none;
+.d-xs-none {display:block;
+}
+.pad-none {
+	display:block ;
 }
 }
