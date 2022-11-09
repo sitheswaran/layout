@@ -8,10 +8,16 @@
 .row>*{
 	width:100%;
 }
+.d-block{
+	
+	display:block!important;
+}
 .nav-but {
-	    padding: 5px 16px;
+	    
+	    font-size:8px;
+	    padding: 8px 20px;
         margin-left:13px;
-		margin-top:5px;
+		margin-top:11px;
 		border-radius: 5px
 }
 .banaer-sec {    
@@ -205,7 +211,9 @@
 	margin-top:7px;
     border-radius: 5px          	
 }
-
+.nav .nav-bar> li a.nav-list {
+	padding-left:5px;
+}
 .banaer-sec  h1{
 
 	font-size:38px;
@@ -372,10 +380,16 @@
 
 
 
+.d-none {
+	display:none !important;
+}
+.d-xs-none {
+	display:none !important;
+}
 
-
-
-
+.d-xs-none{
+	display:block !important;
+}
 
 
 
