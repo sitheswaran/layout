@@ -422,7 +422,8 @@ font-family: 'Poppins', sans-serif;
 .nastrom-first h4{color:white;
 	        padding-left:20px;
 	        font-size:15px;
-         	margin-top:18px;	   
+         	margin-top:18px;
+            padding-top: 8px;			
 }
 
 
@@ -441,7 +442,7 @@ font-family: 'Poppins', sans-serif;
 			transition:all 0.2s ease;
 }
 .nastrom-2 h4{
-	       
+	           padding-top: 4px;
 	        padding-left:20px;
 	        font-size:15px;
          	margin-top:18px;

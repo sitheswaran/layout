@@ -59,7 +59,7 @@
     width: 230px;
 }
 .persento {
-    margin-left: -30px;
+    margin-left:-2px;
 }
 .footer-link {
     margin-left:18px;
@@ -76,7 +76,7 @@
 
 .nastrom-2 i {
    
-    padding-left: 2px;
+    padding-left:5px;
     
     margin-top: 8px;
 }
@@ -256,7 +256,9 @@
 	
 	margin-top: 14px;
 }
-
+.about{
+	text-align:center;
+}
 
 .nastrom-2 i {
 	margin-top: 22px;
@@ -307,7 +309,7 @@
  .d-xs-none{
 	 display:none !important;
  }
-.d-block{
+.pad-none{
 	
 	display:block!important;
 }
@@ -316,15 +318,24 @@
  justify-content:right;
 }
 
+.nastrom-first i {
+    padding-left: 40px;
+    font-size: 54px;
+}
 
+.nastrom-2 i {
+    font-size:50px;
+}
+.direction {
+	flex-direction:column-reverse !important;
+}
+.d-none {
+    display: block!important;
+}
 
-
-
-
-
-
-
-
+.button6 {
+	margin-left: 37%;
+}
 
 
 
@@ -423,12 +434,16 @@
 .d-xs-none{
 	display:block !important;
 }
+.nav .nav-bar {
+    margin-top: -74px;
+}
 
-
-
-
-
-
+.nav .nav-bar {
+    margin-top:unset!important;
+}
+.direction {
+	flex-direction:unset!important;
+}
 
 }
 
@@ -524,4 +539,19 @@
 .pad-none {
 	display:block ;
 }
+.direction {
+	flex-direction:unset!important;
+}
+
+.d-none {
+	display:none !important;
+}
+
+
+
+
+
+
+
+
 }
