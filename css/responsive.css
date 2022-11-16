@@ -1,8 +1,5 @@
 @media (max-width:576px){
-
- .d-xs-none{
-	 display:none !important;
- }
+	
 
 .row {margin:0;}
 .row>*{
@@ -16,12 +13,12 @@
 	    
 	    font-size:8px;
 	    padding: 8px 20px;
-        margin-left:13px;
+        margin-left:4px;
 		margin-top:11px;
 		border-radius: 5px
 }
 .banaer-sec {    
-               height:365px;
+             text-align:center;
 			   
 			 }
 .banaer-sec  h1{font-size:27px;
@@ -67,11 +64,42 @@
 .footer-link {
     margin-left:18px;
 }
-.col-1 { width:8.33%;
-           padding: 15px;
-          }
-		  
-			 
+.about{
+	text-align:center;
+}
+.banaer	{
+	text-align:center;
+}
+.d-xs-none {
+	display:none!important;
+}
+
+.nastrom-2 i {
+   
+    padding-left: 2px;
+    
+    margin-top: 8px;
+}
+
+.nastrom-2 {
+    min-height:60%;
+}
+.nastrom-first {
+    height: 60px;	
+}
+.nastrom-first i {
+	padding-left:5px;
+    margin-top: 11px;
+}
+.direction {
+	flex-direction:column-reverse;
+}
+.ad h1 {
+    font-size: 21px;
+}
+.amount {
+    margin-top: 135px;
+}
 .col-2 {width:16.66%;
            padding: 15px;
           }	  
@@ -214,6 +242,7 @@
 .nav .nav-bar> li a.nav-list {
 	padding-left:5px;
 }
+
 .banaer-sec  h1{
 
 	font-size:38px;
@@ -231,7 +260,7 @@
 
 .nastrom-2 i {
 	margin-top: 22px;
-    padding-left: 50px;
+    padding-left:40px;
 }
 
 .nastrom i {
@@ -240,9 +269,6 @@
 }
 .nastrom {
 	height:85px;
-}
-.ser .border { 
-    margin-left: 310px;
 }
 
 
@@ -278,10 +304,17 @@
 	display:none;
 }
 
+ .d-xs-none{
+	 display:none !important;
+ }
+.d-block{
+	
+	display:block!important;
+}
 
-
-
-
+.nav-but{
+ justify-content:right;
+}
 
 
 

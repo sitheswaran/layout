@@ -1,6 +1,8 @@
-* {padding:0;
+* {
+	padding:0;
    margin:0px;
-   box-sizing:border-box;}
+   box-sizing:border-box;
+   }
    
 html{
 font-family: 'Lato', sans-serif;
@@ -9,8 +11,11 @@ font-family: 'Poppins', sans-serif;
 	
  .container{
 	width:100%;
-	padding:0 15px;
-	overflow:hidden;
+	margin: 0 auto;
+	
+}
+.text-align {
+	text-align: center !important;
 }
 
 .row      {
@@ -19,12 +24,12 @@ font-family: 'Poppins', sans-serif;
            flex-wrap:wrap;
 		    padding-right: 15px;
 		   padding-left:15px;
+		   width: 100%;
 }		   
 		   
 .d-none {
 	display:none !important;
 }
-	 
  
 		  
 	/*--------------------- align iteam------*/
@@ -106,13 +111,14 @@ font-family: 'Poppins', sans-serif;
 		        text-align:center;
 				padding:8px 18px;
 				background-color:#e03a3c;
+				border: solid 1px #e03a3c;
 				color:#fff;
 				border-radius:10px;
 				font-size:16px;				
 }
 
 .nav-but:hover{ 
-                border-radius:10px;
+                border-radius:8px;
                 border: 0.9px solid ;
                 border-color:white;
 	            background-color:black;
@@ -216,15 +222,17 @@ font-family: 'Poppins', sans-serif;
 .banaer	{       background-image:linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.5)),url("../image/pi.jpg");
                 background-size:cover;
                 background-repeat:no-repeat;		 
-		        padding-top:97px;
-		
+		        background-position:center;
+				min-height:600px;
+				display:flex;
+                align-items:center;
 		 } 
 		 
 .banaer-sec {
 	           color:white;  
 		       font-size:20px;
-               height:480px;
-			   width:700px;
+               text-align:left;
+			   
 			 }
 .banaer-sec  h1{font-size:50px;
                 padding-top:58px;}
@@ -239,6 +247,7 @@ font-family: 'Poppins', sans-serif;
               background-color:#e03a3c;
               color: #fff;
               border-radius: 7px;
+			  border: solid 1px #e03a3c;
               font-size: 17px;
               margin-top: 20px; 
 			  transition:0.2s;
@@ -326,7 +335,7 @@ font-family: 'Poppins', sans-serif;
 			  
 }
 .nav-but2:hover{
-                border-color:red;
+                border-color:#e03a3c;
 				background-color:#e03a3c;
 				color:white;
 				
@@ -377,7 +386,7 @@ font-family: 'Poppins', sans-serif;
        display: inline-block;
        border: 7px solid white;
        border-radius: 25px;
-       color: red;
+       color: #e03a3c ;
 	   background-color:white;
 	   box-shadow: 0px 2px 25px rgb(0 0 0 / 18%);
 	   
@@ -394,23 +403,23 @@ font-family: 'Poppins', sans-serif;
 
 
 
-.nastrom{
+.nastrom-first{
 	         background-color:#e03a3c;
             height:100px;
 		    display:flex;
 		  
 		  }
-.nastrom:active{
+.nastrom-first:active{
              background-color:#e03a3c;	
 }
 
-.nastrom i{ 
+.nastrom-first i{ 
             color:white;
 	        padding-left:16px;
 	        font-size:40px;
-		    margin-top:30px;
+		    margin-top:25px;
 }
-.nastrom h4{color:white;
+.nastrom-first h4{color:white;
 	        padding-left:20px;
 	        font-size:15px;
          	margin-top:18px;	   
@@ -419,7 +428,6 @@ font-family: 'Poppins', sans-serif;
 
 .nastrom-2 {
 	        display:flex;
-			
 			border: 1px solid black ;
 			height:100%;
 }
@@ -427,7 +435,7 @@ font-family: 'Poppins', sans-serif;
 
 .nastrom-2 i{ 
           
-	        padding-left:16px;
+	        padding-left:13px;
 	        font-size:40px;
 		    margin-top:28px;
 			transition:all 0.2s ease;
@@ -440,7 +448,8 @@ font-family: 'Poppins', sans-serif;
 		   
 }
 .nastrom-2:hover{
-	       color:red;
+	 border: 1px solid #e03a3c  ;
+	       color:#e03a3c;
 }
 /****-
 .ad {
@@ -489,7 +498,8 @@ font-family: 'Poppins', sans-serif;
 
 }			
 		  
-.ser {      color:white;
+.ser {      
+            color:white;
 	        text-align:center;
 	        background-color:#000;
             
@@ -505,7 +515,7 @@ font-family: 'Poppins', sans-serif;
 	   
 .ser .border{
 	        text-transform: uppercase;
-	        margin-left:515px;
+	        margin: 0 auto;
 	        text-align:center;
 	        width:50px;
 			height:2px;
@@ -523,7 +533,9 @@ font-family: 'Poppins', sans-serif;
 }	
 		   
 	        
-.serv  {    position:relative;
+.serv  {    
+            border-radius:5px;
+			position:relative;
 			background-color:#2b2b2b;
             
 			}
@@ -566,7 +578,7 @@ font-family: 'Poppins', sans-serif;
 }
  .border1{
 	       
-	        margin-left:515px;
+	        margin: 0 auto;
 	        text-align:center;
 	        width:50px;
 			height:2px;
@@ -598,7 +610,8 @@ font-family: 'Poppins', sans-serif;
 }
 
 .portafilo-nav {
-	       
+	        padding-top: 30px;
+	        display: inline-flex;
 	        text-align:center;
 }
 
@@ -693,7 +706,7 @@ font-family: 'Poppins', sans-serif;
 		  
  .border2{
 	       
-	        margin-left:515px;
+	        margin: 0 auto;
 	        text-align:center;
 	        width:50px;
 			height:2px;
@@ -801,7 +814,7 @@ font-family: 'Poppins', sans-serif;
 	}
  .border3{
 	       
-	        margin-left:515px;
+	        margin: 0 auto;
 	        text-align:center;
 	        width:50px;
 			height:2px;
@@ -910,7 +923,7 @@ font-family: 'Poppins', sans-serif;
  	}
  .border4{
 	       
-	        margin-left:515px;
+	        margin: 0 auto;
 	        text-align:center;
 	        width:50px;
 			height:2px;
@@ -983,7 +996,7 @@ font-family: 'Poppins', sans-serif;
 	   
  .border4{
 	       
-    margin-left:515px;
+    margin: 0 auto;
 	text-align:center;
     width:50px;
     height:2px;
@@ -1081,7 +1094,7 @@ font-family: 'Poppins', sans-serif;
 	}
  .border5{
 	       
-    margin-left:515px;
+    margin: 0 auto;
 	text-align:center;
     width:50px;
     height:2px;
@@ -1194,7 +1207,7 @@ font-family: 'Poppins', sans-serif;
               display: inline-block;
               text-align: center;
               padding: 8px 20px;
-              background-color: red;
+              background-color:#e03a3c;
               color: #fff;
               border-radius: 7px;
               font-size: 17px;
@@ -1239,6 +1252,7 @@ font-family: 'Poppins', sans-serif;
 }
 /*------------------------*/
 .presento-2 {
+	
 	width:180px;
 }
 
@@ -1259,36 +1273,22 @@ font-family: 'Poppins', sans-serif;
 .presento-3 {
     margin-left:105px;
 }	
-
-
-.presento-button input{
+.presento-button{
+	margin-top:20px;
 	position:relative;
+	color:#fff;
+	border-radius:5px;
+	overflow:hidden;
+	padding-right:100px;
+}
+.presento-button input{
     border:none;
     padding:10px 20px;
-	margin-left:100px;
-	width:300px;
+	width:100%;
 	border-radius:5px;
-	margin-top:50px;
-	
-
-}	
-.presento-button-2 a{
-	text-decoration:none;
-	color:white;
-	background-color:#e03a3c;
-	padding:6px 5px;
-	text-align:left;
-
-	
-	
-}	
-.presento-button-2 {
-	position:absolute;
-	margin-left:313px;
-	margin-top:-30px;
-
-	
+   
 }
+
 
 
                       /*----------------------------------------------- PRESENTO  END -----------------------------------------------*/
